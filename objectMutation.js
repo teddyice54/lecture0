@@ -3,8 +3,8 @@ const o = {
   b: 'b',
 }
 
-const o2 = o 
-const o2 = Object.assign({}, o)
-o.a = 'new value'
 
-console.log(o2.a)
+const o2 = Object.assign({}, o)
+o2.a = 'new value'
+
+console.log(o.a)
