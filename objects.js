@@ -25,8 +25,11 @@ isLearning: true,
 greet: function() { 
 console.log('hi!')
 } ,
+  //nesting an object inside of another object
   address: {
     street: 'Main St' ,
     number: 123,
   } ,
 }
+
+03.address
