@@ -24,5 +24,9 @@ lastName: 'Koller',
 isLearning: true,
 greet: function() { 
 console.log('hi!')
+} ,
+  address: {
+    street: 'Main St' ,
+    number: 123,
+  } ,
 }
-  }
